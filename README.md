@@ -42,11 +42,6 @@ minikube start
 ./run_kubernetes.sh
 ```
 
-5. After you’ve called run_kubernetes.sh, and a pod is up and running, make a prediction using a separate terminal tab and run 
-```
-./make_prediction2.sh
-```
-
 5. Delete the cluster
 ```
 minikube delete
